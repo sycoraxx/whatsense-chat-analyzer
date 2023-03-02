@@ -4,7 +4,7 @@ numpy
 matplotlib
 nltk
 seaborn
-sklearn
+scikit-learn
 plotly.express
 urlextract
 wordcloud
