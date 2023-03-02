@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 matplotlib
-string
 pickle
 nltk
 seaborn
@@ -10,8 +9,6 @@ plotly.express
 urlextract
 wordcloud
 emoji
-re
-string
 pickle
 nltk
 collections
