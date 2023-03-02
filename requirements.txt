@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-matplotplib
+matplotlib
 re
 string
 pickle
