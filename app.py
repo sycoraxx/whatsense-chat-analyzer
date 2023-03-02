@@ -84,6 +84,7 @@ if uploaded_file is not None:
             'plot_bgcolor': 'lightpink',
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_traces(line_color='burlywood')
         st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
         # activity map
