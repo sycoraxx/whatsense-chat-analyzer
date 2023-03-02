@@ -4,8 +4,8 @@ import pandas as pd
 import string
 import pickle
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
+# from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.linear_model import LogisticRegression
 
 import nltk
 from nltk.stem import WordNetLemmatizer
