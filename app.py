@@ -157,8 +157,7 @@ if uploaded_file is not None:
         fig.update_layout(
             font=dict(
             family="Courier New, monospace",
-            size=15), 
-            title_font_family="Times New Roman"
+            size=15)
             )
         
         fig.update_xaxes(title_font_family="Arial")
