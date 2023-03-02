@@ -5,7 +5,7 @@
 
 ### Sentiment Analysis Model
 
-- Trained on a 1.6 Million Tweets Dataset.
+- Trained on a 1.6 Million Tweets [dataset](https://www.kaggle.com/datasets/kazanova/sentiment140).
 - Training data: 90%, Validation data: 10%
 - Data Cleaning involving several steps: Lemmatization, Emoji Textification, Stopwords Removal, etc.
 - Feature Extraction using Tf-Idf Vectorizer with 50,000 features (unigram and bi-gram)
