@@ -2,13 +2,10 @@ streamlit
 pandas
 numpy
 matplotlib
-pickle
 nltk
 seaborn
 plotly.express
 urlextract
 wordcloud
 emoji
-pickle
 nltk
-collections
