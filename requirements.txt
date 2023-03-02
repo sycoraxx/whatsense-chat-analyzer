@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 matplotlib
-re
 string
 pickle
 nltk
