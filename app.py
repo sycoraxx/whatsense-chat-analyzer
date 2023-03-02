@@ -64,6 +64,7 @@ if uploaded_file is not None:
             'plot_bgcolor': 'lightskyblue',
             'paper_bgcolor': 'rgba(0, 0, 0, 0)',
         })
+        fig.update_traces(line_color='darkslateblue')
         fig.update_yaxes(title_font_family="Arial")
         st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
