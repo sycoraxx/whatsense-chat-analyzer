@@ -105,6 +105,7 @@ def preprocess(data):
     df.loc['DateTime'] = df.loc[:,'DateTime'].str.replace('\u202f', '')
 
     df["DateTime"] = pd.to_datetime(df["DateTime"], format='%d/%m/%Y, %I:%M %p', errors="ignore")
+    df["DateTime"] = pd.to_datetime(df["DateTime"], format='%m/%d/%Y, %I:%M %p', errors="ignore")
     df["DateTime"] = pd.to_datetime(df["DateTime"], format='%m/%d/%y, %I:%M %p', errors="ignore")
     df["DateTime"] = pd.to_datetime(df["DateTime"], format='%d/%m/%y, %I:%M %p', errors="ignore")
 
