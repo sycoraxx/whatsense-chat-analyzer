@@ -67,8 +67,7 @@ def split_count(text):
     return emoji_list
 
 def preprocess(data):
-    conversationPath = 'chat.txt' # chat file
-
+    
     parsedData = [] 
     
     fp = io.StringIO(data)
