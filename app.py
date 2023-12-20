@@ -174,7 +174,7 @@ if uploaded_file is not None:
 
         sent_df = sentiment.sentiment_table(selected_user, df)
 
-        fig = px.pie(sent_df, values='sentiment', names=sent_df.index, color=sent_df.index,
+        fig = px.pie(sent_df, values='count', names=sent_df.index, color=sent_df.index,
         color_discrete_map={'Positive':'limegreen',
                              'Negative':'firebrick'},
         title='Sentiment Pie Chart', labels={
@@ -184,7 +184,6 @@ if uploaded_file is not None:
         fig.update_layout()
         st.plotly_chart(fig, theme="streamlit",
                         use_container_width=True, width=500)
-
 
 style = """
 <style>
